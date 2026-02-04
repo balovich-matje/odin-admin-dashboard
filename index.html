@@ -2,13 +2,128 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Odin Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <div class="app-layout">
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="logo">▦</div>
+                <div class="title">Dashboard</div>
+            </div>
+            <nav class="nav">
+                <a class="nav-item" href="#">Home</a>
+                <a class="nav-item" href="#">Profile</a>
+                <a class="nav-item" href="#">Messages</a>
+                <a class="nav-item" href="#">History</a>
+                <a class="nav-item" href="#">Tasks</a>
+                <a class="nav-item" href="#">Communities</a>
+                <a class="nav-item" href="#">Settings</a>
+                <a class="nav-item" href="#">Support</a>
+                <a class="nav-item" href="#">Privacy</a>
+            </nav>
+        </aside>
+
+        <div class="main-area">
+            <header class="topbar">
+                <div class="search">
+                    <span class="search-icon">🔍</span>
+                    <input type="search" placeholder="Search" />
+                </div>
+                <div class="top-actions">
+                    <button class="btn primary">New</button>
+                    <button class="btn">Upload</button>
+                    <button class="btn">Share</button>
+                    <div class="profile">
+                        <img class="avatar" src="https://via.placeholder.com/40" alt="avatar" />
+                        <div class="profile-name">Morgan Oakley</div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="content">
+                <section class="intro">
+                    <div class="welcome-avatar"><img src="https://via.placeholder.com/72" alt="avatar" /></div>
+                    <div class="welcome-text">
+                        <div class="hi">Hi there,</div>
+                        <h2 class="name">Morgan Oakley <span class="handle">(@morgan)</span></h2>
+                    </div>
+                </section>
+
+                <div class="columns">
+                    <main class="projects">
+                        <h3 class="section-title">Your Projects</h3>
+                        <div class="cards-grid">
+                            <article class="card">
+                                <h4>Super Cool Project</h4>
+                                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis
+                                    felis accumsan nec.</p>
+                                <div class="card-actions">★ ◐ ⚙</div>
+                            </article>
+                            <article class="card">
+                                <h4>Less Cool Project</h4>
+                                <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt.
+                                </p>
+                                <div class="card-actions">★ ◐ ⚙</div>
+                            </article>
+                            <article class="card">
+                                <h4>Impossible App</h4>
+                                <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu.</p>
+                                <div class="card-actions">★ ◐ ⚙</div>
+                            </article>
+                            <article class="card">
+                                <h4>Easy Peasy App</h4>
+                                <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan
+                                    aliquam.</p>
+                                <div class="card-actions">★ ◐ ⚙</div>
+                            </article>
+                            <article class="card">
+                                <h4>Ad Blocker</h4>
+                                <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel.</p>
+                                <div class="card-actions">★ ◐ ⚙</div>
+                            </article>
+                            <article class="card">
+                                <h4>Money Maker</h4>
+                                <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien.</p>
+                                <div class="card-actions">★ ◐ ⚙</div>
+                            </article>
+                        </div>
+                    </main>
+
+                    <aside class="rightcol">
+                        <div class="panel announcements">
+                            <h4>Announcements</h4>
+                            <ul>
+                                <li><strong>Site Maintenance</strong>
+                                    <p>Vestibulum condimentum tellus lacus...</p>
+                                </li>
+                                <li><strong>Community Share Day</strong>
+                                    <p>Nam vel lectus tincidunt...</p>
+                                </li>
+                                <li><strong>Updated Privacy Policy</strong>
+                                    <p>Phasellus efficitur nisi eget elit consectetur...</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="panel trending">
+                            <h4>Trending</h4>
+                            <ul>
+                                <li>@tegan — World Peace Builder</li>
+                                <li>@morgan — Super Cool Project</li>
+                                <li>@kendall — Life Changing App</li>
+                                <li>@alex — No Traffic Maker</li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
